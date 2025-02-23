@@ -32,7 +32,7 @@ export const PROJECTS = [
     image: taskmanager,
     description:
       "A simple offline-first Task Manager App built with Flutter for the frontend and Node with Express and PostgreSQL for the backend. The app supports offline data management with automatic online synchronization when the connection is restored. Containerized using Docker for easy deployment. ",
-    technologies: ["Flutter", "Sqlite", "Node.js", "Express", "PostgreSQL", "Docker"],
+    technologies: ["Flutter", "Dart", "Typescript", "Sqlite", "Node.js", "Express", "PostgreSQL", "Docker"],
     url: "https://github.com/Abhishekbagdiya01/Task-Manager-App"
   },
   {

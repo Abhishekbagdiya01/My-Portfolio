@@ -19,7 +19,7 @@ const Experiences = () => {
         }}
 
         className="my-20 text-center text-4xl">Experiences</motion.h1>
-      <div className=" m-4">
+      <div className=" p-4">
         {
           EXPERIENCES.map((exp, index) => (
             <div className="mb-8 flex flex-wrap lg:justify-center" key={index}>

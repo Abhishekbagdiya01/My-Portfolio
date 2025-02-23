@@ -104,5 +104,4 @@ const TechStack = () => {
     </div >
   )
 }
-
 export default TechStack
