@@ -2,14 +2,14 @@ import { FaFlutter, FaReact, FaNodeJs } from "react-icons/fa6";
 import { RiFirebaseFill } from "react-icons/ri";
 import { SiExpress, SiMongodb } from "react-icons/si";
 import { BiLogoPostgresql } from "react-icons/bi";
-import { motion } from "motion/react";
+import { motion, Variants } from "motion/react";
 const TechStack = () => {
-  const animeVariants = (duration: number) => ({
+  const animeVariants = (duration: number | string): Variants => ({
     initial: { y: -10 },
     animate: {
       y: [10, -10],
       transition: {
-        duration: duration,
+        duration: typeof duration === 'number' ? `${duration}s` : duration,
         ease: "linear",
         repeat: Infinity,
         repeatType: "reverse",
