@@ -3,7 +3,7 @@ import { HERO_CONTENT } from '../constants/contents';
 import { motion } from "motion/react"
 const Hero = () => {
   return (
-    <div className='border-b border-neutral-900 pb-4 p-4 '>
+    <div className='border-b border-neutral-900 pb-4 '>
       <div className=' flex flex-col lg:flex-row justify-between items-center'> {/* Removed lg:items-start */}
         <div className=' flex flex-col items-center lg:items-start lg:w-auto w-full mb-8 lg:mb-0'> {/* Added w-full for smaller screens */}
           <motion.h1
@@ -11,7 +11,7 @@ const Hero = () => {
               x: -100,
               opacity: 0
             }}
-            animate={{
+            whileInView={{
               x: 0,
               opacity: 1
             }}
@@ -27,7 +27,7 @@ const Hero = () => {
               x: -100,
               opacity: 0
             }}
-            animate={{
+            whileInView={{
               x: 0,
               opacity: 1
             }}
@@ -44,7 +44,7 @@ const Hero = () => {
               x: -100,
               opacity: 0
             }}
-            animate={{
+            whileInView={{
               x: 0,
               opacity: 1
             }}

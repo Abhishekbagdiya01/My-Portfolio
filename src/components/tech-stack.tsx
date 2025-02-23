@@ -4,12 +4,12 @@ import { SiExpress, SiMongodb } from "react-icons/si";
 import { BiLogoPostgresql } from "react-icons/bi";
 import { motion, Variants } from "motion/react";
 const TechStack = () => {
-  const animeVariants = (duration: number | string): Variants => ({
+  const animeVariants = (duration: number): Variants => ({
     initial: { y: -10 },
     animate: {
       y: [10, -10],
       transition: {
-        duration: typeof duration === 'number' ? `${duration}s` : duration,
+        duration: duration,
         ease: "linear",
         repeat: Infinity,
         repeatType: "reverse",
@@ -17,7 +17,7 @@ const TechStack = () => {
     },
   });
   return (
-    <div className="border-b border-neutral-900 p-4">
+    <div className="border-b border-neutral-900">
       <motion.h1
         whileInView={{
           y: 0,

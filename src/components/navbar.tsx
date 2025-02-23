@@ -4,7 +4,7 @@ import { FaXTwitter } from "react-icons/fa6";
 import { GrArchlinux } from "react-icons/gr";
 const Navbar = () => {
   return (
-    <nav className='mb-20 flex items-center justify-between p-6' >
+    <nav className='mb-20 flex items-center justify-between ' >
       <div className='flex flex-shrink-0 items-center'>
         {/* <img className='h2 w-10 bg-white rounded ' src={logo} alt='logo' /> */}
         <GrArchlinux className='text-4xl text-white' />

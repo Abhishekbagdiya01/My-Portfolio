@@ -10,7 +10,7 @@ export const NAME = `Abhishek Bagdiya`
 
 export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable applications. I have honed my skills in front-end technologies like Flutter, React Native and React, as well as back-end technologies like Firebase, Node.js, MySQL, PostgreSQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
 
-export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 5 years of professional experience, I have worked with a variety of technologies, including React, Next.js, Node.js, MySQL, PostgreSQL, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
+export const ABOUT_TEXT = `A highly motivated and results-oriented recent MCA graduate eager to contribute my skills and passion for mobile application development to a challenging and rewarding role.  Proficient in Flutter, React Native, and Expo, I possess a strong foundation in building cross-platform mobile applications. My expertise extends beyond front-end development, encompassing back-end technologies such as Node.js, Express.js, MongoDB, and PostgreSQL. I am familiar with architectural patterns like MVVM and adhere to clean code principles, ensuring maintainable and scalable applications.  My academic background has provided me with a solid understanding of software development methodologies, and I am a quick learner, always eager to explore and master new technologies. I thrive in collaborative environments and am confident in my ability to contribute effectively to a team.  Beyond coding, I am passionate about staying up-to-date with the latest industry trends and enjoy exploring innovative solutions.  I am excited to begin my career in mobile development and make a meaningful impact.`;
 
 export const EXPERIENCES = [
   {
@@ -32,7 +32,7 @@ export const PROJECTS = [
     image: taskmanager,
     description:
       "A simple offline-first Task Manager App built with Flutter for the frontend and Node with Express and PostgreSQL for the backend. The app supports offline data management with automatic online synchronization when the connection is restored. Containerized using Docker for easy deployment. ",
-    technologies: ["Flutter", "Dart", "Sqlite", "Typescript", "Node.js", "Express", "PostgreSQL", "Docker"],
+    technologies: ["Flutter", "Sqlite", "Node.js", "Express", "PostgreSQL", "Docker"],
     url: "https://github.com/Abhishekbagdiya01/Task-Manager-App"
   },
   {

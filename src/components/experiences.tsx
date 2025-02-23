@@ -3,7 +3,7 @@ import { EXPERIENCES } from "../constants/contents"
 
 const Experiences = () => {
   return (
-    <div className="border-b border-neutral-900 pb-4">
+    <div className="border-b border-neutral-900">
       <motion.h1
         initial={{
           y: -100,
@@ -25,7 +25,7 @@ const Experiences = () => {
             <div className="mb-8 flex flex-wrap lg:justify-center" key={index}>
               <motion.div
                 initial={{
-                  x: -100,
+                  x: -10,
                   opacity: 0
                 }}
                 whileInView={

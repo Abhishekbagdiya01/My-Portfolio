@@ -3,7 +3,7 @@ import { CONTACT } from "../constants/contents"
 
 const Contact = () => {
   return (
-    <div className=" p-4">
+    <div>
       <motion.h1
         initial={{
           y: 10,
