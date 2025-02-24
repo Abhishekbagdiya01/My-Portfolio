@@ -4,8 +4,8 @@ import { motion } from "motion/react"
 const Hero = () => {
   return (
     <div className='border-b border-neutral-900 pb-4 '>
-      <div className=' flex flex-col lg:flex-row justify-between items-center'> {/* Removed lg:items-start */}
-        <div className=' flex flex-col items-center lg:items-start lg:w-auto w-full mb-8 lg:mb-0'> {/* Added w-full for smaller screens */}
+      <div className=' flex flex-col lg:flex-row justify-between items-center'>
+        <div className=' flex flex-col items-center lg:items-start lg:w-auto w-full mb-8 lg:mb-0'>
           <motion.h1
             initial={{
               x: -100,
@@ -19,7 +19,7 @@ const Hero = () => {
               duration: 1,
               delay: 1
             }}
-            className='pb-16 text-6xl font-thin tracking-tight lg:mt-16 lg:text-8xl'>
+            className='pb-16 text-5xl mt-6  items-center font-thin tracking-tight lg:mt-16 lg:text-8xl'>
             Abhishek Bagdiya
           </motion.h1>
           <motion.span

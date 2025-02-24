@@ -81,7 +81,7 @@ export const PROJECTS = [
     description:
       "Full-stack note app built with Node, Express, MongoDB ,Typescript and Flutter. The app allows users to create, edit, and delete notes.The backend is implemented using Node.js and Express, and the MongoDB database is used to store the notes and categories. The frontend is implemented using Flutter, and Cubit is used for state management. ",
     technologies: ["Flutter", "Dart", "Typescript", "Node.js", "Express", "MongoDB"],
-    url: "https://github.com/Abhishekbagdiya01/HappyTails-Pet-appointment-app"
+    url: "https://github.com/Abhishekbagdiya01/full_stack_note_app"
   },
   // {
   //   title: "Gullak",
