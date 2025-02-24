@@ -138,7 +138,7 @@ const TechStack = () => {
           animate="animate"
           initial="initial"
           className="rounded-2xl border-neutral-800 border-4 p-4">
-          <VscVscode className="text-7xl text-blue-800" />
+          <VscVscode className="text-7xl text-blue-700" />
         </motion.div>
         <motion.div
           variants={animeVariants(2)}
