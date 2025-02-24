@@ -70,7 +70,7 @@ const Hero = () => {
             onClick={
               () => {
                 const link = document.createElement("a");
-                link.href = "./src/assets/Abhishek_bagdiya.pdf";
+                link.href = "/Abhishek_bagdiya.pdf";
                 link.download = "Abhishek_bagdiya_resume.pdf";
                 document.body.appendChild(link);
                 link.click();
